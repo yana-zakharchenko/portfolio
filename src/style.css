@@ -58,8 +58,15 @@ padding: 30px 100px;}
 .container p {font-size: 20px;}
 
 
+footer {background-color: var(--background-color);
+        padding: 10px 15px;}
 
+.contact-links {display: flex;
+justify-content: center;
+color: var(--highlight-color);}
 
+i {color: var(--highlight-color);
+padding: 20px;}
 
 @media(max-width: 768px) {
     .navbar-brand {font-size: medium;}
