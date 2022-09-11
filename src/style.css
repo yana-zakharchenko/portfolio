@@ -68,6 +68,13 @@ color: var(--highlight-color);}
 i {color: var(--highlight-color);
 padding: 20px;}
 
+
+#contact-button {display: block;
+margin: 0 auto;
+margin-top: 20px;
+line-height: 1;}
+
+
 @media(max-width: 768px) {
     .navbar-brand {font-size: medium;}
 
@@ -89,5 +96,7 @@ padding: 20px;}
     margin: 0 auto;}
 
     img {display: none;}
+
+    input {margin-top: 20px;}
 
 }
