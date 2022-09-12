@@ -60,13 +60,18 @@ padding: 30px 100px;}
 
 footer {background-color: var(--background-color);
         padding: 10px 15px;}
+footer p {font-size: 13px;}
+footer p a {color: var(--highlight-color);
+transition: all 100ms ease-in-out;} 
+footer p a:hover {color: var(--accent-color);}       
 
 .contact-links {display: flex;
 justify-content: center;
 color: var(--highlight-color);}
 
 i {color: var(--highlight-color);
-padding: 20px;}
+padding: 20px;
+transition: all 100ms ease-in-out;}
 
 i:hover {color: var(--accent-color);}
 
@@ -81,7 +86,8 @@ line-height: 1;}
 .about-me p {font-family: var(--basic-font);
     font-size: 17px;}
 
-.link-shecodes {color: var(--highlight-color);}
+.link-shecodes {color: var(--highlight-color);
+                transition: all 100ms ease-in-out;}
 .link-shecodes:hover {color: var(--accent-color);}
 
 .skillset h2 {margin: 0;
@@ -103,6 +109,8 @@ font-family: var(--basic-font);}
 
     h1 {font-size: 40px;
     line-height: 1;}
+    
+    #my-name {text-align: start;}
 
     h2, p, h3 {font-size: 18px;}
 
@@ -125,8 +133,10 @@ font-family: var(--basic-font);}
     input {margin-top: 20px;}
 
     .about-me h1 {text-align: center;}
-    .skillset h2 {font-size: 25px;
-                padding-top: 20px;}
+    .skillset h2 {text-align: center;
+        font-size: 25px;
+                padding-top: 20px;
+            padding-left: 0;}
     .skillset  {text-align: center;}
     .skillset ul {list-style-type: none;}         
 
