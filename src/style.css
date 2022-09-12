@@ -68,11 +68,32 @@ color: var(--highlight-color);}
 i {color: var(--highlight-color);
 padding: 20px;}
 
+i:hover {color: var(--accent-color);}
+
 
 #contact-button {display: block;
 margin: 0 auto;
 margin-top: 20px;
 line-height: 1;}
+
+
+.about-me {max-width: 100%;}
+.about-me p {font-family: var(--basic-font);
+    font-size: 17px;}
+
+.link-shecodes {color: var(--highlight-color);}
+.link-shecodes:hover {color: var(--accent-color);}
+
+.skillset h2 {margin: 0;
+padding-left: 100px;}
+
+h3 {color: var(--highlight-color);}
+
+ul {list-style-type: square;}
+
+li {font-size: 17px;
+font-family: var(--basic-font);}
+
 
 
 @media(max-width: 768px) {
@@ -95,8 +116,10 @@ line-height: 1;}
     display: block;
     margin: 0 auto;}
 
-    img {display: none;}
+    #projects img {display: none;}
 
     input {margin-top: 20px;}
+
+    .about-me h1 {text-align: center;}
 
 }
