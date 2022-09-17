@@ -101,6 +101,10 @@ li {font-size: 17px;
 font-family: var(--basic-font);}
 
 
+.contact-page-info a {color: var(--main-color);}
+.contact-page-info a:hover {color: var(--accent-color);}
+
+
 
 @media(max-width: 768px) {
     .navbar-brand {font-size: medium;}
